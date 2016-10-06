@@ -423,9 +423,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "OHcyjjrpWR45YR/LnPZeJqzD6kQ=",
+                          "uniqueKey": "pLFJrFsMxCfam3e/VKFgwphhLUA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "BtnAddLink",
@@ -445,7 +445,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=a:7"
+                                        "Clause": "id=btnAdd"
                                       }
                                     }
                                   ],
@@ -490,7 +490,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "8b2928a7-adb9-4acf-a8fb-3adb8467cb80",
-            "Description": "Check 'CheckBox' to be 'True'",
+            "Description": "Check 'CheckBox0' to be 'True'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
@@ -538,9 +538,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "/aSnfT6OxuIO3+L0U21dtICNX5w=",
+                          "uniqueKey": "PdqyTFMdlzmDOO8iQQSA/woWMBI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "CheckBox0",
@@ -560,13 +560,34 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:2"
+                                        "Clause": "TagName=tbody"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=tr"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagindex=td:5"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "type=checkbox"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    2,
+                                    3,
+                                    4
                                   ]
                                 }
                               }
@@ -605,7 +626,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "5a8c6b19-29e8-43e7-b44f-97579a58c101",
-            "Description": "Check 'CheckBox' to be 'True'",
+            "Description": "Check 'CheckBox1' to be 'True'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
@@ -653,9 +674,9 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "wmW4Y7X/OVJTBeStTNyx9a6TPic=",
+                          "uniqueKey": "W3gRZ1eiCzPZa4LZEFwZGTUjOr0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "CheckBox1",
@@ -675,13 +696,34 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=input:1"
+                                        "Clause": "TagName=tbody"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=tr:1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagindex=td:0"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "type=checkbox"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    2,
+                                    3,
+                                    4
                                   ]
                                 }
                               }
