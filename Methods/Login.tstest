@@ -61,7 +61,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Login0nkhucww.olk",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -108,7 +108,7 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Loginwvn3fwrl.gae",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -120,7 +120,7 @@
           "__value": {
             "Runtime ID": "8b13e582-dbeb-4fe8-94ec-679b18bec7fa",
             "Description": "Enter text 'Superlion' in 'PlcContentLoginControlUserNameText'",
-            "CustomDescription": "Enter text 'Superlion' in Login field",
+            "CustomDescription": "Enter Login ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -234,7 +234,7 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Loginuabbfkeq.l5s",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -246,7 +246,7 @@
           "__value": {
             "Runtime ID": "28c3689a-04f1-4aeb-8ad5-04f3642824c1",
             "Description": "Enter text 'CTAKAH' in password field",
-            "CustomDescription": "Enter text 'CTAKAH' in password field",
+            "CustomDescription": "Enter password",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -360,7 +360,7 @@
             "Order": 4,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Logindxcfdjus.jnj",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -471,7 +471,7 @@
             "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "Login2wngpejp.joa",
             "QcId": 0,
             "QcVersionStamp": 0,
