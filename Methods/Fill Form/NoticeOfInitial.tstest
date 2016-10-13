@@ -1172,7 +1172,7 @@
             "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "NoticeOfInitialf3aei4xc.o2y",
             "QcId": 0,
             "QcVersionStamp": 0,
