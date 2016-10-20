@@ -78,7 +78,7 @@
                 "WaitOnElements": false,
                 "TestName": "gotoStudentPSSP",
                 "TestPath": "Methods\\gotoStudentPSSP.tstest",
-                "TestUniqueId": "895d8e89-5e12-4df2-8390-7dd98d96d474",
+                "TestUniqueId": "273a9334-45df-4478-baf7-920a2e7153df",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -141,15 +141,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Students/ViewStudent",
-                          "Query": "?commonStudentId=4536729&studentViewType=Events&programType=MiamiPSSP",
-                          "BaseUrl": "http://dade.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - DAVOGUSTTO, JAVIER",
-                          "CompareMode": 2,
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyDAVOGUSTTOJAVIER0"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
@@ -252,15 +252,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Events/ViewEvent",
-                          "Query": "?eventId=030dec50-bcd0-4910-9b91-a69b00a2c44e",
-                          "BaseUrl": "http://dade.acceliqc.com",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - PSSP Initial Meeting for DAVOGUSTTO, JAVIER",
-                          "CompareMode": 2,
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyPSSPInitial"
+                          "FriendlyName": "AccelifyIFSPInitial1"
                         }
                       },
                       "Frame": null,
@@ -331,7 +331,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "15be9449-c555-4d0c-8717-78a22cdecd89",
-            "Description": "Execute test 'Attendance'",
+            "Description": "Execute test 'Attendance.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -339,8 +339,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Attendance",
-                "TestPath": "forms\\Attendance.tstest",
+                "TestName": "Attendance.tstest",
+                "TestPath": "Methods\\Fill Form\\Attendance\\Attendance.tstest",
                 "TestUniqueId": "a7e39f53-ac65-49dc-b050-498794cdc254",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -384,7 +384,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "AttendanceTest.resx",
+    "ResourceFilePath": "Methods\\Fill Form\\Attendance\\AttendanceTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -416,7 +416,7 @@
     "Description": "",
     "Name": "AttendanceTest",
     "Owner": "",
-    "Path": "AttendanceTest.tstest",
+    "Path": "Methods\\Fill Form\\Attendance\\AttendanceTest.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "81109870-3001-4647-9b29-0bb0ad4e86f2",

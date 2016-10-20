@@ -259,14 +259,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ee8702ea-e809-4c11-aead-26c65284939e",
-            "Description": "KendoInput: Combo open ",
+            "Runtime ID": "d930b8a1-859c-46a5-9e03-acb7129839a0",
+            "Description": "Desktop command: LeftClick on SchoolNamePSSPSpan",
             "CustomDescription": null,
             "Step": {
-              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputComboToggle",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
               "__value": {
-                "ComboOpened": "False",
-                "CustomPrefix": "KendoInput",
+                "Focus": false,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -279,16 +283,14 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
-                  "KendoInput": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "KendoInput",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -309,7 +311,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "4FYoW2HjfmeEaj5zhIAUHjD7zeU=",
+                          "uniqueKey": "YNrfiMXgPrGH+xyeWMB+8T5mPhA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "SchoolNamePSSPSpan",
@@ -330,6 +332,12 @@
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
                                         "Clause": "TagName=span"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "role=listbox"
                                       }
                                     }
                                   ],
@@ -364,7 +372,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "NoticeOfInitialb2b5ui1t.gck",
+            "StepImageKey": "NoticeOfInitialdft0vsax.oe1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
