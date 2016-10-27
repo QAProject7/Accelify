@@ -552,7 +552,7 @@
             "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "FillNoticeOfMeeting23vnctdr3.gxj",
             "QcId": 0,
             "QcVersionStamp": 0,

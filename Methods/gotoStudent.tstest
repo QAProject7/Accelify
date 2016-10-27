@@ -27,13 +27,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "8de8f545-cc00-4ef3-bed8-a68989702724",
-            "Description": "Navigate to : '/PLAN/Students/ViewStudent?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP'",
+            "Description": "Go to student events page",
             "CustomDescription": "Go to student events page",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "/PLAN/Students/ViewStudent?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
+                "NavigateURL": "/PLAN/Students/ViewStudent?CommonStudentId=1651994&studentViewType=Events&programType=MiamiIEP",
                 "BaseUrl": "http://dade.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
@@ -67,6 +67,46 @@
             "QcVersionStamp": 0,
             "Version": 200
           }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e8a27d4c-7a76-4b08-a719-f0571b4a710a",
+            "Description": "New Coded Step",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "gotoStudent_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "gotoStudentq53osu5w.zzb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
         }
       ]
     },
@@ -82,10 +122,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "",
+    "TestClass": "Accelify.gotoStudent",
     "IsManual": false,
     "ResourceFilePath": "Methods\\gotoStudent.resx",
-    "HasCodeBehind": false,
+    "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {

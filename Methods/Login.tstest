@@ -245,7 +245,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "28c3689a-04f1-4aeb-8ad5-04f3642824c1",
-            "Description": "Enter text 'CTAKAH' in password field",
+            "Description": "Enter password",
             "CustomDescription": "Enter password",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -304,7 +304,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "eUgtFHl8NiMq3z28MQf+uegHQrM=",
                           "NodeKind": 4,
@@ -320,13 +320,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=plcContent_LoginControl_Password"
+                                        "Clause": "tagname=input"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "id=plcContent_LoginControl_Password"
                                       }
                                     }
                                   ],
@@ -336,7 +336,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/input[1]",
+                          "BackupSearchClause": null,
                           "DataBindingExpressions": {}
                         }
                       },
