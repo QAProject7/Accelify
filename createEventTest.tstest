@@ -4,10 +4,10 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "C:\\Users\\Iakov\\AppData\\Local\\Temp\\",
     "ProfilerServerName": null,
-    "ProfilerBenchmarkResultsFilePath": null,
-    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerBenchmarkResultsFilePath": "C:\\Users\\Iakov\\AppData\\Local\\Temp\\131226655109020910 createEventTest.tsperf",
+    "ProfilerBenchmarkResultsId": "d74864ea-7a86-4eb0-a341-13f9a2099622",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
     "CurrentReferences": [
@@ -108,8 +108,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f810b0b2-6e13-470b-86fb-61078d0f7699",
-            "Description": "Execute test 'CreateEventDataDriven'",
+            "Runtime ID": "0ef17c81-a133-4814-b446-08a4dde80bc7",
+            "Description": "Execute test 'CreateEvent'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -117,9 +117,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "CreateEventDataDriven",
-                "TestPath": "Methods\\CreateEventDataDriven.tstest",
-                "TestUniqueId": "a27084d0-bcc4-4dde-8e6d-e3dab492e5ed",
+                "TestName": "CreateEvent",
+                "TestPath": "Methods\\CreateEvent.tstest",
+                "TestUniqueId": "7a66453f-0f11-4128-b56f-9a4de952d72e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -139,8 +139,8 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "createEventTest5qgq0bmk.0wu",
+            "ContinueOnFailure": false,
+            "StepImageKey": "createEventTest332ce3yo.mv0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
