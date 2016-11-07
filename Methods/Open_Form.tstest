@@ -57,7 +57,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "66258ec4-484a-4b4f-8a82-f0031c8c0814",
+            "Runtime ID": "180b68b4-ee33-49bd-a1f7-59d54c581c3a",
             "Description": "Verify Exists 'GeneralFormName'",
             "CustomDescription": null,
             "Step": {
@@ -688,13 +688,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=btnLockEvent"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "id=btnLockEvent"
                                       }
                                     }
                                   ],

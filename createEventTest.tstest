@@ -139,7 +139,7 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "createEventTest332ce3yo.mv0",
             "QcId": 0,
             "QcVersionStamp": 0,

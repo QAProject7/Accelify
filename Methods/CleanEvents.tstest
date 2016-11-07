@@ -62,15 +62,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://dade.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - MORALES, ALEXANDER",
-                          "CompareMode": 2,
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyMORALESALEXANDER0"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
@@ -177,15 +177,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://dade.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - MORALES, ALEXANDER",
-                          "CompareMode": 2,
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyMORALESALEXANDER0"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
@@ -282,7 +282,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 3,
             "Id": "",
             "StepState": 0,
@@ -364,7 +364,7 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 5,
             "Id": "",
             "StepState": 0,
@@ -527,15 +527,15 @@
                           "Page": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                             "__value": {
-                              "Path": "/PLAN/Students/ViewStudent",
-                              "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-                              "BaseUrl": "http://dade.acceliqc.com",
+                              "Path": "/Plan/Students/ViewStudent",
+                              "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                              "BaseUrl": "https://dade-pilot.acceliplan.com",
                               "EquivalentUrls": [],
                               "Fragment": "",
-                              "Title": "Accelify - MORALES, ALEXANDER",
-                              "CompareMode": 2,
+                              "Title": "Accelify - EDGAR ABADA",
+                              "CompareMode": 4,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AccelifyMORALESALEXANDER0"
+                              "FriendlyName": "AccelifyEDGARABADA"
                             }
                           },
                           "Frame": null,
@@ -634,15 +634,15 @@
                                         "Page": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                                           "__value": {
-                                            "Path": "/PLAN/Students/ViewStudent",
-                                            "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-                                            "BaseUrl": "http://dade.acceliqc.com",
+                                            "Path": "/Plan/Students/ViewStudent",
+                                            "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                                            "BaseUrl": "https://dade-pilot.acceliplan.com",
                                             "EquivalentUrls": [],
                                             "Fragment": "",
-                                            "Title": "Accelify - MORALES, ALEXANDER",
-                                            "CompareMode": 2,
+                                            "Title": "Accelify - EDGAR ABADA",
+                                            "CompareMode": 4,
                                             "AlwaysUseTitleInCompare": false,
-                                            "FriendlyName": "AccelifyMORALESALEXANDER0"
+                                            "FriendlyName": "AccelifyEDGARABADA"
                                           }
                                         },
                                         "Frame": null,
@@ -906,15 +906,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://dade.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - MORALES, ALEXANDER",
-                          "CompareMode": 2,
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyMORALESALEXANDER0"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
@@ -992,15 +992,15 @@
           "Page": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
-              "Path": "/PLAN/Students/ViewStudent",
-              "Query": "?CommonStudentId=4897411&studentViewType=Events&programType=MiamiIEP",
-              "BaseUrl": "http://dade.acceliqc.com",
+              "Path": "/Plan/Students/ViewStudent",
+              "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+              "BaseUrl": "https://dade-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "",
-              "Title": "Accelify - MORALES, ALEXANDER",
-              "CompareMode": 2,
+              "Title": "Accelify - EDGAR ABADA",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyMORALESALEXANDER0"
+              "FriendlyName": "AccelifyEDGARABADA"
             }
           },
           "Frame": null,
