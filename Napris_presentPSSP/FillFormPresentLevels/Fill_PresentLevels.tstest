@@ -109,7 +109,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "071095f7-6783-4939-a3d0-2cf053b64f69",
-            "Description": "Execute test 'Open_PresentLevels_Count.tstest'",
+            "Description": "Execute test 'Open_PresentLevels_Count'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -117,7 +117,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Open_PresentLevels_Count.tstest",
+                "TestName": "Open_PresentLevels_Count",
                 "TestPath": "Napris_presentPSSP\\FillFormPresentLevels\\Open_PresentLevels_Count.tstest",
                 "TestUniqueId": "fda0d14e-4560-4c9a-b12e-61c55b227db6",
                 "Pause": 0,
@@ -671,7 +671,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "babd0540-f6a7-454d-b9bb-4675adb1098b",
-            "Description": "Execute test 'Save_PresentLevels_Count.tstest'",
+            "Description": "Execute test 'Save_PresentLevels_Count'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -679,7 +679,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Save_PresentLevels_Count.tstest",
+                "TestName": "Save_PresentLevels_Count",
                 "TestPath": "Napris_presentPSSP\\FillFormPresentLevels\\Save_PresentLevels_Count.tstest",
                 "TestUniqueId": "a8e60548-abc1-4173-821f-a31f2eeca385",
                 "Pause": 0,

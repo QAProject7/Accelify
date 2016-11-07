@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "5d7c4bd5-867e-4b85-bfcd-8ad485ee3116",
-            "Description": "Execute test 'gotoStudentDD.tstest'",
+            "Description": "Execute test 'gotoStudentDD'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,7 +76,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "gotoStudentDD.tstest",
+                "TestName": "gotoStudentDD",
                 "TestPath": "anatoly\\gotoStudentDD.tstest",
                 "TestUniqueId": "ab110203-fd9e-4b73-a311-cf6cd140f9fd",
                 "Pause": 0,
@@ -829,7 +829,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "0d3fac00-f02f-4653-9c4a-87f9b3429a56",
-            "Description": "Execute test 'OpenPresentLevels.tstest'",
+            "Description": "Execute test 'OpenPresentLevels'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -837,7 +837,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenPresentLevels.tstest",
+                "TestName": "OpenPresentLevels",
                 "TestPath": "anatoly\\OpenPresentLevels.tstest",
                 "TestUniqueId": "5ba8f1fd-c526-4ba0-bd98-518e9e26e2a7",
                 "Pause": 0,
@@ -910,7 +910,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "49d0efe3-2929-4cfc-aba5-255276eb1ed2",
-            "Description": "Execute test 'PresentLevels.tstest'",
+            "Description": "Execute test 'PresentLevels'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -918,7 +918,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "PresentLevels.tstest",
+                "TestName": "PresentLevels",
                 "TestPath": "anatoly\\PresentLevels.tstest",
                 "TestUniqueId": "5dc71472-d0c1-45bb-ade5-472914d3fde8",
                 "Pause": 0,
