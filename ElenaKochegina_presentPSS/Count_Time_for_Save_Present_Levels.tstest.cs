@@ -49,7 +49,7 @@ namespace Accelify
         [CodedStep(@"Save Present Levels and Count")]
        public void Count_Time_for_Save_Present_Levels_CodedStep()
         {
-             Console.Out.WriteLine("Current form: "+Data["formname"].ToString());
+            // Console.Out.WriteLine("Current form: "+Data["formname"].ToString());
              var watch = System.Diagnostics.Stopwatch.StartNew();
 this.ExecuteTest("ElenaKochegina_presentPSS\\my_methods\\Save_Pressent_Levels.tstest");
 watch.Stop();

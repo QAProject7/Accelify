@@ -32,8 +32,8 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "/PLAN/Students/ViewStudent?CommonStudentId=4897411&studentViewType=Events&programType=MiamiPSSP",
+                "UseDecodedUrl": false,
+                "NavigateURL": "/PLAN/Students/ViewStudent?CommonStudentId=1656582&studentViewType=Events&programType=MiamiPSSP",
                 "BaseUrl": "http://dade.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,

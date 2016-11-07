@@ -10,35 +10,239 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.2.824.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "417ba6ee-4a9f-4dba-b685-5f6860545940",
-            "Description": "Desktop command: LeftClick on PresentLevelsLink0",
+            "Runtime ID": "2633b3bb-14f3-407d-a7be-5ba890df6e7a",
+            "Description": "KendoGrid: 'Data' item count 'Equals' '0'.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.WhileLoopLogicalDescriptor",
               "__value": {
-                "Focus": true,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                "Verification": {
+                  "__type": "Telerik.TestStudio.Translators.KendoUI.Grid.KendoGridItemCountVerificationDescriptor",
+                  "__value": {
+                    "ItemCount": 0,
+                    "CountType": 0,
+                    "CompareType": 0,
+                    "ControlName": "KendoGrid",
+                    "UseBackupSearch": true,
+                    "DataBindVariableName": null,
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {
+                          "RunsAgainstVersion": ""
+                        }
+                      }
+                    },
+                    "Elements": {
+                      "KendoGrid": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "KendoGrid",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "/Plan/Students/ViewStudent",
+                              "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                              "BaseUrl": "https://dade-pilot.acceliplan.com",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Accelify - EDGAR ABADA",
+                              "CompareMode": 4,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "AccelifyEDGARABADA"
+                            }
+                          },
+                          "Frame": null,
+                          "FindInfo": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "mXRwW9elcSi1drqrzZzlDGL2DgA=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "PnlEventListDiv1",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "data-role=grid"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "id=pnlEventList"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": []
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoGrid",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 2,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
                 },
-                "UsejQuery": false,
+                "Branches": {
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "WHILE ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "KendoGrid": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "KendoGrid",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - EDGAR ABADA",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyEDGARABADA"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "mXRwW9elcSi1drqrzZzlDGL2DgA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PnlEventListDiv1",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "data-role=grid"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlEventList"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoGrid",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 8,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Fill_form _Present_Levelscfofczlr.vsf",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "cb9c36a1-8405-41d6-9940-7c631631fdd9",
+            "Description": "Click 'RemoveLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -50,7 +254,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -62,26 +268,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=247193&StudentViewType=Events&ProgramType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "Title": "Accelify - EDGAR ABADA",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
+                          "FriendlyName": "AccelifyEDGARABADA"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "toH3lWhniCe/nzCWslfj33PjysI=",
+                          "uniqueKey": "gPOckP2VpEJPb2NfkmOy9TGXz8A=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PresentLevelsLink0",
+                          "Name": "RemoveLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -92,19 +298,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventContent"
+                                        "Clause": "id=pnlEventList"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=k-link row-link"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "title=Present Levels"
+                                        "Clause": "tagIndex=a:3"
                                       }
                                     }
                                   ],
@@ -116,7 +316,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[16]/td[6]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[10]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -135,11 +335,11 @@
               }
             },
             "Enabled": true,
-            "Order": 1,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Open_Pressent_Levelsbmefnaco.ixm",
+            "StepImageKey": "Fill_form _Present_Levelsfjuuhbiq.ykz",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -148,7 +348,51 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "588627c8-8d76-4788-be93-556176c582da",
+            "Runtime ID": "a296a520-7e97-4613-8590-b5d2a326e66a",
+            "Description": "Handle 'Confirm' dialog.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ConfirmDialogHandlerDescriptor",
+              "__value": {
+                "HandlerTimeout": 5000,
+                "DialogType": 1,
+                "HandleButton": 0,
+                "InitializationTime": 250,
+                "WaitOnElements": false,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "Fill_form _Present_Levelswjvpjm24.icm",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c2de75bd-319b-41ea-b4bb-4f62af050753",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -244,235 +488,11 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "Open_Pressent_Levelslgotjv4y.5yj",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e4b347aa-c49d-4341-acad-326b9b9de6aa",
-            "Description": "Wait for element 'PresentLevelsDiv' 'is' visible.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
-              "__value": {
-                "IsVisible": true,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "verifyTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "verifyTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "4UFl1fW3kzC2iRSk2bReqNWytw8=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "PresentLevelsDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Present Levels"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "Open_Pressent_Levelsjv4rsi1b.mme",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ad35e04a-e07a-4282-b45f-0554e527667d",
-            "Description": "Wait for element 'BtnLockEventLink' 'is' visible.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
-              "__value": {
-                "IsVisible": true,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "verifyTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "verifyTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "9E6vDUuHXj93/hDFQp+A8Q/X3fs=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "BtnLockEventLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=btnLockEvent"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
             "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Open_Pressent_Levelsl2b41ary.10e",
+            "StepImageKey": "Fill_form _Present_Levelscgqsvjb1.t32",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -494,7 +514,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\RemoveAll.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -524,13 +544,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Open_Pressent_Levels",
+    "Name": "RemoveAll",
     "Owner": "",
-    "Path": "ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.tstest",
+    "Path": "ElenaKochegina_presentPSS\\my_methods\\RemoveAll.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "15bed284-78ac-4b1b-8efc-e132bc3b9a10",
-    "Id": "15bed284-78ac-4b1b-8efc-e132bc3b9a10",
+    "UniqueId": "9a52c9b8-8d70-4b44-a329-58dbdc61ba49",
+    "Id": "9a52c9b8-8d70-4b44-a329-58dbdc61ba49",
     "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
