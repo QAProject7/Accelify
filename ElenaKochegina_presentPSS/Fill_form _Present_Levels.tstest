@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "8214c691-a8c5-4161-9c3b-6bb92f2f369e",
-            "Description": "Execute test 'Login'",
+            "Description": "Execute test 'Login.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Login.tstest",
+                "TestName": "Login.tstest",
+                "TestPath": "ElenaKochegina_presentPSS\\my_methods\\Login.tstest",
                 "TestUniqueId": "be3fe096-cf6f-45ae-9be5-626c403d0e1f",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -68,7 +68,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b1b5790d-2f98-4031-bbd1-1cf9da83a23e",
-            "Description": "Execute test 'gotoStudentPSSP'",
+            "Description": "Execute test 'gotoStudentPSSP.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,8 +76,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "gotoStudentPSSP",
-                "TestPath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.tstest",
+                "TestName": "gotoStudentPSSP.tstest",
+                "TestPath": "ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.tstest",
                 "TestUniqueId": "cbe08ab5-27ae-46eb-9e93-3c48703ed02f",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -1486,7 +1486,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "83730de8-3900-4b53-97ef-6288b0a0f4b8",
-            "Description": "Execute test 'Count_Time_for_Open_Present_Levels'",
+            "Description": "Execute test 'Count_Time_for_Open_Present_Levels.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -1494,8 +1494,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Count_Time_for_Open_Present_Levels",
-                "TestPath": "Perfomance_students\\ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.tstest",
+                "TestName": "Count_Time_for_Open_Present_Levels.tstest",
+                "TestPath": "ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.tstest",
                 "TestUniqueId": "6e9fd8eb-96be-4afa-9fed-14f790223d42",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -1527,7 +1527,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2963af4e-acd6-4ea1-a195-afe2abc862ee",
-            "Description": "Execute test 'Count_Time_for_Save_Present_Levels'",
+            "Description": "Execute test 'Count_Time_for_Save_Present_Levels.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -1535,8 +1535,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Count_Time_for_Save_Present_Levels",
-                "TestPath": "Perfomance_students\\ElenaKochegina_presentPSS\\Count_Time_for_Save_Present_Levels.tstest",
+                "TestName": "Count_Time_for_Save_Present_Levels.tstest",
+                "TestPath": "ElenaKochegina_presentPSS\\Count_Time_for_Save_Present_Levels.tstest",
                 "TestUniqueId": "72a72a37-4d36-4fb2-87ec-a9ed7edc7c26",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -1580,7 +1580,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\Fill_form _Present_Levels.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\Fill_form _Present_Levels.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1612,7 +1612,7 @@
     "Description": "",
     "Name": "Fill_form _Present_Levels",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\Fill_form _Present_Levels.tstest",
+    "Path": "ElenaKochegina_presentPSS\\Fill_form _Present_Levels.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "52b61016-66af-402e-8509-992bb919e295",

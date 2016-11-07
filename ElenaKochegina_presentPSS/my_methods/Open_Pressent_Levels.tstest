@@ -273,7 +273,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -305,7 +305,7 @@
     "Description": "",
     "Name": "Open_Pressent_Levels",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.tstest",
+    "Path": "ElenaKochegina_presentPSS\\my_methods\\Open_Pressent_Levels.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "15bed284-78ac-4b1b-8efc-e132bc3b9a10",

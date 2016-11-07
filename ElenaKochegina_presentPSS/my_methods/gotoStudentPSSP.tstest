@@ -84,7 +84,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -116,7 +116,7 @@
     "Description": "",
     "Name": "gotoStudentPSSP",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.tstest",
+    "Path": "ElenaKochegina_presentPSS\\my_methods\\gotoStudentPSSP.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "cbe08ab5-27ae-46eb-9e93-3c48703ed02f",

@@ -317,7 +317,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "Accelify.Save_Pressent_Levels",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Save_Pressent_Levels.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\Save_Pressent_Levels.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -349,7 +349,7 @@
     "Description": "",
     "Name": "Save_Pressent_Levels",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Save_Pressent_Levels.tstest",
+    "Path": "ElenaKochegina_presentPSS\\my_methods\\Save_Pressent_Levels.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "4d2b3c43-fae9-4d61-aaac-33f546d6723f",

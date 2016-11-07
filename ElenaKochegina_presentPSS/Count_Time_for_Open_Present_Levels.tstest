@@ -70,7 +70,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "Accelify.Count_Time_for_Open_Present_Levels",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -102,7 +102,7 @@
     "Description": "",
     "Name": "Count_Time_for_Open_Present_Levels",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.tstest",
+    "Path": "ElenaKochegina_presentPSS\\Count_Time_for_Open_Present_Levels.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "6e9fd8eb-96be-4afa-9fed-14f790223d42",

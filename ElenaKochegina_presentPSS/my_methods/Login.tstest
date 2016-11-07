@@ -494,7 +494,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Login.resx",
+    "ResourceFilePath": "ElenaKochegina_presentPSS\\my_methods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -526,7 +526,7 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "Perfomance_students\\ElenaKochegina_presentPSS\\my_methods\\Login.tstest",
+    "Path": "ElenaKochegina_presentPSS\\my_methods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "be3fe096-cf6f-45ae-9be5-626c403d0e1f",
