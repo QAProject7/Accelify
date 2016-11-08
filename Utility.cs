@@ -41,6 +41,7 @@ namespace Accelify
         public static String formname = "non defined";
         public static String trigger = "non defined";
         public static String filename = "non defined";
+        public static Boolean eventCreated = false;
         public static ArrayList ischecked = new ArrayList();
         public static ArrayList expectedChecked = new ArrayList();
        public static ArrayList expectedAll = new ArrayList();
