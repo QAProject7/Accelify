@@ -212,7 +212,9 @@
     "Namespace": "Accelify",
     "AssemblyName": "Accelify",
     "OutputFolder": "bin",
-    "ExcludedFiles": [],
+    "ExcludedFiles": [
+      "Reference"
+    ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": true,
     "BugTrackerPersistableSettings": {},
