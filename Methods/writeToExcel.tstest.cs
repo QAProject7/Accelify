@@ -55,7 +55,7 @@ namespace Accelify
        public void writeToExcel_CodedStep()
         {
         string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PSSP1.xls";
-string myPath = "C:\\domainResults.xlsx";
+string myPath = "C:\\report\\domainResults.xls";
 
 if (!System.IO.File.Exists(myPath))
 {
@@ -66,11 +66,11 @@ Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Inter
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 
 System.Threading.Thread.Sleep(1000);
-ActiveBrowser.RefreshDomTree();
+//ActiveBrowser.RefreshDomTree();
 var eventgroup = Data["EventName"].ToString();
 if (Utility.eventCreated)
 {
-	
+    
     excelApp.Cells[Data.IterationIndex + 2 , 3] = "Event "+eventgroup+ " is created";
 }
 else
