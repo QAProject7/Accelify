@@ -77,7 +77,7 @@ namespace Accelify
                    
                 }
                 
-                String address = "/Plan/Students/ViewStudent?CommonStudentId="+studentID+"&studentViewType=Events&programType=MiamiIEP";
+                String address = "/Plan/Students/ViewStudent?CommonStudentId="+studentID+"&studentViewType=Events&programType=MiamiPSSP";
                  ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);
             
         }

@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Console.Out.WriteLine(\"Current form: \"+Data[\"formname\"].ToString());\r\n             Log.WriteLine(\"Current form: \"+Data[\"formname\"].ToString());\r\n             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"Methods\\\\_OpenForm.tstest\");\r\nwatch.Stop();\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds);\r\nUtility.opentime = watch.ElapsedMilliseconds;\r\n             Console.Out.WriteLine(\"Saving Current form: \"+Data[\"formname\"].ToString());\r\n              watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"Methods\\\\SaveForm.tstest\");\r\nwatch.Stop();\r\nUtility.savetime = watch.ElapsedMilliseconds;\r\n            this.ExecuteTest(\"verify\\\\WriteToExcel.tstest\");      \r\n           Utility.row = Data.IterationIndex + 2;\r\n            ",
+                "Code": "            Console.Out.WriteLine(\"Current form: \"+Data[\"formname\"].ToString());\r\n             Log.WriteLine(\"Current form: \"+Data[\"formname\"].ToString());\r\n             var watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"Methods\\\\_OpenForm.tstest\");\r\nwatch.Stop();\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds);\r\nUtility.opentime = watch.ElapsedMilliseconds;\r\n             Console.Out.WriteLine(\"Saving Current form: \"+Data[\"formname\"].ToString());\r\n              watch = System.Diagnostics.Stopwatch.StartNew();\r\nthis.ExecuteTest(\"Methods\\\\SaveForm.tstest\");\r\nwatch.Stop();\r\nUtility.savetime = watch.ElapsedMilliseconds;\r\n            this.ExecuteTest(\"Methods\\\\WriteToExcel.tstest\");      \r\n           Utility.row = Data.IterationIndex + 2;\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -76,14 +76,14 @@
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
-        "DefaultToGrid": true,
+        "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "",
-        "DataProvider": "",
+        "DataTableName": "PSSP_Initial$",
+        "DataProvider": "PerformanceTestDataPSSP.xls",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
-        "DataType": 4,
+        "DataType": 5,
         "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""

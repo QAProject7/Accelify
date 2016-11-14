@@ -55,7 +55,7 @@ namespace Accelify
        public void writeToExcel_CodedStep()
         {
         string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\PerformanceTestDataPSSP.xls";
-string myPath = "C:\\report\\domainResults.xls";
+string myPath = "C:\\report\\domainResults2.xls";
 
 if (!System.IO.File.Exists(myPath))
 {

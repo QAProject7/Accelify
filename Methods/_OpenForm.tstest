@@ -272,14 +272,10 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": true,
-        "DataType": 0,
-        "BuiltInData": [
-          {
-            "FormName": "yyyy"
-          }
-        ],
-        "BuiltInDocumentKey": null,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": "",
         "TSQL": ""
       }
     },
@@ -287,7 +283,7 @@
     "DeploymentItems": [],
     "IsTestFragment": false,
     "StopTestListOnFailure": false,
-    "InheritParentDataSource": false,
+    "InheritParentDataSource": true,
     "BrowserType": 0,
     "QcId": 0,
     "QcFilePath": null,

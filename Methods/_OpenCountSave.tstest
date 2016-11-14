@@ -17,18 +17,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "58e1962e-c763-46ea-b410-69e1f663cef9",
-            "Description": "Execute test '_OpenForm'",
+            "Runtime ID": "b7201c58-c3f3-4d63-9bbd-40fdb5c1e7ff",
+            "Description": "New Coded Step",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "WaitOnElementsTimeout": 0,
+                "Code": "            ",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "_OpenForm",
-                "TestPath": "Methods\\_OpenForm.tstest",
-                "TestUniqueId": "ea8a66e3-d3c0-46f7-bcda-b085cb077503",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -46,51 +45,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "_OpenCountSave3wgekyml.201",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "95623180-ddfa-40b7-9184-a2fbae54a3a6",
-            "Description": "Execute test 'SaveForm'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
-              "__value": {
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "SaveForm",
-                "TestPath": "Methods\\SaveForm.tstest",
-                "TestUniqueId": "79a11395-0739-4622-a7c0-47fdbe03bbd8",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "_OpenCountSavehsluyq0l.xy0",
+            "Id": "_OpenCountSave_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": true,
+            "StepImageKey": "_OpenCountSavey22p4n2u.jpp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -110,10 +68,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "",
+    "TestClass": "Accelify._OpenCountSave",
     "IsManual": false,
     "ResourceFilePath": "Methods\\_OpenCountSave.resx",
-    "HasCodeBehind": false,
+    "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {

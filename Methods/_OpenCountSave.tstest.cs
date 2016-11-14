@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace Accelify
 {
 
-    public class OpenFormAndCount : BaseWebAiiTest
+    public class _OpenCountSave : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -46,23 +46,9 @@ namespace Accelify
         
         // Add your test methods here...
     
-        [CodedStep(@"Open Form And Count")]
-        public void OpenForm_Count()
+        [CodedStep(@"New Coded Step")]
+        public void _OpenCountSave_CodedStep()
         {
-            Console.Out.WriteLine("Current form: "+Data["formname"].ToString());
-             Log.WriteLine("Current form: "+Data["formname"].ToString());
-             var watch = System.Diagnostics.Stopwatch.StartNew();
-this.ExecuteTest("Methods\\_OpenForm.tstest");
-watch.Stop();
-            Log.WriteLine("Time elapsed: "+watch.ElapsedMilliseconds);
-Utility.opentime = watch.ElapsedMilliseconds;
-             Console.Out.WriteLine("Saving Current form: "+Data["formname"].ToString());
-              watch = System.Diagnostics.Stopwatch.StartNew();
-this.ExecuteTest("Methods\\SaveForm.tstest");
-watch.Stop();
-Utility.savetime = watch.ElapsedMilliseconds;
-            this.ExecuteTest("Methods\\WriteToExcel.tstest");      
-           Utility.row = Data.IterationIndex + 2;
             
         }
     }
