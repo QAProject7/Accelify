@@ -17,26 +17,97 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d0164404-b49e-466d-b71c-dbd468484913",
-            "Description": "ChooseURL IEP based on base url",
+            "Runtime ID": "0458dcb4-ae30-4bf7-9973-f3e8d508383d",
+            "Description": "Click 'BtnUpdateFormLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    Utility.currentDomain = \"qc\";\r\n                    studentID = \"273177\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                    Utility.currentDomain = \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    Utility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                \r\n                String address = \"/Plan/Students/ViewStudent?CommonStudentId=\"+studentID+\"&studentViewType=Events&programType=MiamiIEP\";\r\n                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
-                "Elements": {},
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=b488e7da-f727-46f1-a4be-a60800cc9399",
+                          "BaseUrl": "http://miami.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Initial Meeting for First2Years Last2Years",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyIFSPInitial1"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BtnUpdateFormLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=btnUpdateForm"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -45,10 +116,10 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "ChooseUrl_IEP",
-            "StepState": 1,
-            "ContinueOnFailure": true,
-            "StepImageKey": "GoToStIFSPEvents4w331mxq.p31",
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "OpenFormAndCountfxoy1tdn.cbh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -57,7 +128,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ee596694-4f9a-40fa-b5fc-bd55183ee425",
+            "Runtime ID": "53491c68-f481-4ca6-9f47-ce5c8a176bcb",
             "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
@@ -156,8 +227,8 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "GoToStIFSPEventsdsqapawa.dbz",
+            "ContinueOnFailure": false,
+            "StepImageKey": "SaveFormq0tokjro.54t",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -177,10 +248,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "Accelify.GoTo10YStIEP",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\GoTo10YStIEP.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\SaveForm.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -209,13 +280,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "GoTo10YStIEP",
+    "Name": "SaveForm",
     "Owner": "",
-    "Path": "Methods\\GoTo10YStIEP.tstest",
+    "Path": "Methods\\SaveForm.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "49d922d2-ae02-421c-b832-6bb651c7b75f",
-    "Id": "49d922d2-ae02-421c-b832-6bb651c7b75f",
+    "UniqueId": "79a11395-0739-4622-a7c0-47fdbe03bbd8",
+    "Id": "79a11395-0739-4622-a7c0-47fdbe03bbd8",
     "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }

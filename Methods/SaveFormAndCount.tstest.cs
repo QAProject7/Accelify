@@ -49,13 +49,13 @@ namespace Accelify
          [CodedStep(@"Save Form And Count")]
         public void SaveForm_Count()
         {
+            Console.Out.WriteLine("Saving Current form: "+Data["formname"].ToString());
              var watch = System.Diagnostics.Stopwatch.StartNew();
-this.ExecuteTest("verify\\Save_Form.tstest");
+this.ExecuteTest("Methods\\SaveForm.tstest");
 watch.Stop();
 Utility.savetime = watch.ElapsedMilliseconds;
-            this.ExecuteTest("verify\\WriteToExcel.tstest");
-            Utility.row = Utility.row + 1;
-           // Utility.row = Data.IterationIndex + 2;
+            this.ExecuteTest("verify\\WriteToExcel.tstest");      
+           Utility.row = Data.IterationIndex + 2;
     }
     }
 }

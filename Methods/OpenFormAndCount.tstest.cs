@@ -49,12 +49,20 @@ namespace Accelify
         [CodedStep(@"Open Form And Count")]
         public void OpenForm_Count()
         {
-            // Console.Out.WriteLine("Current form: "+Data["formname"].ToString());
+            Console.Out.WriteLine("Current form: "+Data["formname"].ToString());
+             Log.WriteLine("Current form: "+Data["formname"].ToString());
              var watch = System.Diagnostics.Stopwatch.StartNew();
-this.ExecuteTest("Methods\\Open_Form.tstest");
+this.ExecuteTest("Methods\\_OpenForm.tstest");
 watch.Stop();
             Log.WriteLine("Time elapsed: "+watch.ElapsedMilliseconds);
 Utility.opentime = watch.ElapsedMilliseconds;
+             Console.Out.WriteLine("Saving Current form: "+Data["formname"].ToString());
+              watch = System.Diagnostics.Stopwatch.StartNew();
+this.ExecuteTest("Methods\\SaveForm.tstest");
+watch.Stop();
+Utility.savetime = watch.ElapsedMilliseconds;
+            this.ExecuteTest("verify\\WriteToExcel.tstest");      
+           Utility.row = Data.IterationIndex + 2;
             
         }
     }

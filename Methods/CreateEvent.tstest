@@ -241,13 +241,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7efe223d-4cc9-43d7-b6d7-c9780ebe61c9",
-            "Description": "KendoListBox: select item by text 'IEP Ad-hoc Evaluation'",
+            "Description": "KendoListBox: select item by text 'PSSP Initial Meeting'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 0,
-                "SelectionText": "IEP Ad-hoc Evaluation",
+                "SelectionText": "PSSP Initial Meeting",
                 "SelectionIndex": 1,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,

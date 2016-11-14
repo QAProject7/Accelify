@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace Accelify
 {
 
-    public class writeToExcelCount : BaseWebAiiTest
+    public class writeToExcel : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -66,13 +66,17 @@ Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Inter
 Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);
 
 System.Threading.Thread.Sleep(1000);
-
-
+//ActiveBrowser.RefreshDomTree();
+var eventgroup = Data["EventName"].ToString();
+if (Utility.eventCreated)
+{
     
-    excelApp.Cells[Data.IterationIndex + 2 , 2] = Utility.opentime;
-
-    excelApp.Cells[Data.IterationIndex + 2 , 3] = Utility.savetime;
-
+    excelApp.Cells[Data.IterationIndex + 2 , 3] = "Event "+eventgroup+ " is created";
+}
+else
+{
+    excelApp.Cells[Data.IterationIndex + 2 , 3] = "Event "+eventgroup+ " is NOT created";
+}
 
 excelApp.Visible = true;
 excelApp.ActiveWorkbook.Save();

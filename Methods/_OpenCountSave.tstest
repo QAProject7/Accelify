@@ -17,17 +17,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3ede2525-15c4-44e6-bcf2-b09816c2a6c4",
-            "Description": "WriteToExcel2",
+            "Runtime ID": "58e1962e-c763-46ea-b410-69e1f663cef9",
+            "Description": "Execute test '_OpenForm'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "Code": "        string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\PerformanceTestDataPSSP.xls\";\r\nstring myPath = \"C:\\\\report\\\\domainResults.xls\";\r\n\r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\n\r\nSystem.Threading.Thread.Sleep(1000);\r\n\r\n\r\n    \r\n    excelApp.Cells[Data.IterationIndex + 2 , 2] = Utility.opentime;\r\n\r\n    excelApp.Cells[Data.IterationIndex + 2 , 3] = Utility.savetime;\r\n\r\n\r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);\r\n Utility.eventCreated = false;",
-                "RequiresSilverlight": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
+                "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "_OpenForm",
+                "TestPath": "Methods\\_OpenForm.tstest",
+                "TestUniqueId": "ea8a66e3-d3c0-46f7-bcda-b085cb077503",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -45,10 +46,51 @@
             },
             "Enabled": true,
             "Order": 1,
-            "Id": "writeToExcel_CodedStep",
-            "StepState": 1,
+            "Id": "",
+            "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "writeToExcelpikibie3.rzp",
+            "StepImageKey": "_OpenCountSave3wgekyml.201",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "95623180-ddfa-40b7-9184-a2fbae54a3a6",
+            "Description": "Execute test 'SaveForm'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "SaveForm",
+                "TestPath": "Methods\\SaveForm.tstest",
+                "TestUniqueId": "79a11395-0739-4622-a7c0-47fdbe03bbd8",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "_OpenCountSavehsluyq0l.xy0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -68,10 +110,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "Accelify.writeToExcelCount",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\writeToExcel.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "Methods\\_OpenCountSave.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -93,20 +135,20 @@
     "DeploymentItems": [],
     "IsTestFragment": false,
     "StopTestListOnFailure": false,
-    "InheritParentDataSource": true,
+    "InheritParentDataSource": false,
     "BrowserType": 0,
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "writeToExcel",
+    "Name": "_OpenCountSave",
     "Owner": "",
-    "Path": "Methods\\writeToExcel.tstest",
+    "Path": "Methods\\_OpenCountSave.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "a12b7939-f333-4d34-9604-f6b1fd43b2b6",
-    "Id": "a12b7939-f333-4d34-9604-f6b1fd43b2b6",
+    "UniqueId": "0fe235b1-49c5-4304-b191-21efab605b84",
+    "Id": "0fe235b1-49c5-4304-b191-21efab605b84",
     "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }

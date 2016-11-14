@@ -45,6 +45,7 @@ namespace Accelify
         public static ArrayList ischecked = new ArrayList();
         public static ArrayList expectedChecked = new ArrayList();
        public static ArrayList expectedAll = new ArrayList();
+  
          
         public static void GetExAll(String text){
             
