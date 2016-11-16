@@ -1,0 +1,113 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "3ede2525-15c4-44e6-bcf2-b09816c2a6c4",
+            "Description": "WriteToExcelFormsData2",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "        string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\Book2.xlsx\";\r\n        string myPath = \"C:\\\\qa\\\\telerik\\\\Results\\\\domainResultsFormsData.xls\";\r\n\r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\n\r\nSystem.Threading.Thread.Sleep(1000);\r\n\r\nexcelApp.Cells[Data.IterationIndex + 2 , 2] = Accelify.Utility.opentime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 3] = Accelify.Utility.savetime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 4] = \"Extracted form name: \"+Accelify.Utility.title;\r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "writeToExcelFormsData_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "writeToExcelpikibie3.rzp",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "RealProject.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "RealProject.writeToExcelFormsData",
+    "IsManual": false,
+    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.resx",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": true,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "writeToExcelFormsData",
+    "Owner": "",
+    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "e038f13d-41b1-41c0-8020-a04077d397a4",
+    "Id": "e038f13d-41b1-41c0-8020-a04077d397a4",
+    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "Version": 200
+  }
+}
