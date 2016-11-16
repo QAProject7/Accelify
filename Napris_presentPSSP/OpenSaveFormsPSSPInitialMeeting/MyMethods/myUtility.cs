@@ -9,7 +9,7 @@ using System.IO;
 
 namespace Accelify
 {
-    public static class Utility
+    public static class myUtility
     {
         public static String presentURL;
         public static String serviceURL;

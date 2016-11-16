@@ -256,7 +256,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_SaveForm.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_SaveFormNapris.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -286,14 +286,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "_SaveForm",
+    "Name": "_SaveFormNapris",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_SaveForm.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_SaveFormNapris.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "ea66e2e1-9f98-4c07-ba99-4b85e27285a5",
     "Id": "ea66e2e1-9f98-4c07-ba99-4b85e27285a5",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

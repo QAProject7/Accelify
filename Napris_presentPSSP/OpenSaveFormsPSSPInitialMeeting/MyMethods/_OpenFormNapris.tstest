@@ -69,7 +69,7 @@
                           "uniqueKey": "5kgl0yXfnJ2fGCATe7Eh9YoDPpc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "GeneralFormName",
+                          "Name": "GeneralFormName1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -374,7 +374,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenForm.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenFormNapris.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -404,14 +404,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "_OpenForm",
+    "Name": "_OpenFormNapris",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenForm.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenFormNapris.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "6ba45615-fa4d-40d9-a320-be239925d2c9",
     "Id": "6ba45615-fa4d-40d9-a320-be239925d2c9",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

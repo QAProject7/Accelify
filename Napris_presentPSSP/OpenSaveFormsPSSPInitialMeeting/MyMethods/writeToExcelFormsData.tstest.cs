@@ -16,7 +16,7 @@ using ArtOfTest.WebAii.ObjectModel;
 using ArtOfTest.WebAii.Silverlight;
 using ArtOfTest.WebAii.Silverlight.UI;
 
-namespace RealProject
+namespace Accelify
 {
 
     public class writeToExcelFormsData : BaseWebAiiTest
@@ -55,7 +55,7 @@ namespace RealProject
        public void writeToExcelFormsData_CodedStep()
         {
         string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @"\Data\Book2.xlsx";
-        string myPath = "C:\\qa\\telerik\\Results\\domainResultsFormsData.xls";
+        string myPath = "C:\\Results\\domainResultsFormsData.xls";
 
 if (!System.IO.File.Exists(myPath))
 {
@@ -67,9 +67,9 @@ Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPat
 
 System.Threading.Thread.Sleep(1000);
 
-excelApp.Cells[Data.IterationIndex + 2 , 2] = Accelify.Utility.opentime;
-excelApp.Cells[Data.IterationIndex + 2 , 3] = Accelify.Utility.savetime;
-excelApp.Cells[Data.IterationIndex + 2 , 4] = "Extracted form name: "+Accelify.Utility.title;
+excelApp.Cells[Data.IterationIndex + 2 , 2] = myUtility.opentime;
+excelApp.Cells[Data.IterationIndex + 2 , 3] = myUtility.savetime;
+excelApp.Cells[Data.IterationIndex + 2 , 4] = "Extracted form name: "+myUtility.title;
 excelApp.Visible = true;
 excelApp.ActiveWorkbook.Save();
 

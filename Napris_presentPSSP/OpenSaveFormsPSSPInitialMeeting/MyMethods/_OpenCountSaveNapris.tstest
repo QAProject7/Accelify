@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            Console.Out.WriteLine(\"Open Current form: \" + Data[\"FormName\"].ToString());\r\n            Log.WriteLine(\"Open Current form: \" + Data[\"FormName\"].ToString());\r\n               var watch = System.Diagnostics.Stopwatch.StartNew();\r\n               this.ExecuteTest(\"Methods\\\\_OpenForm.tstest\");\r\n               watch.Stop();\r\n            Accelify.Utility.title = GetExtractedValue(\"FormTitleName\");\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds+\" ms\");\r\n            Accelify.Utility.opentime = watch.ElapsedMilliseconds;\r\n            \r\n            Console.Out.WriteLine(\"Saving Current form: \" + Data[\"FormName\"].ToString());\r\n            Log.WriteLine(\"Saving Current form: \" + Data[\"FormName\"].ToString());\r\n               watch = System.Diagnostics.Stopwatch.StartNew();\r\n               this.ExecuteTest(\"Methods\\\\_SaveForm.tstest\");\r\n               watch.Stop();\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds+\" ms\");\r\n            Accelify.Utility.savetime = watch.ElapsedMilliseconds;\r\n            \r\n            this.ExecuteTest(\"Methods\\\\writeToExcelFormsData.tstest\");\r\n            Accelify.Utility.row = Data.IterationIndex+2;",
+                "Code": "            Console.Out.WriteLine(\"Open Current form: \" + Data[\"FormName\"].ToString());\r\n            Log.WriteLine(\"Open Current form: \" + Data[\"FormName\"].ToString());\r\n               var watch = System.Diagnostics.Stopwatch.StartNew();\r\n               this.ExecuteTest(\"Napris_presentPSSP\\\\OpenSaveFormsPSSPInitialMeeting\\\\MyMethods\\\\_OpenFormNapris.tstest\");\r\n               watch.Stop();\r\n            myUtility.title = GetExtractedValue(\"FormTitleName\");\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds+\" ms\");\r\n            myUtility.opentime = watch.ElapsedMilliseconds;\r\n            \r\n            Console.Out.WriteLine(\"Saving Current form: \" + Data[\"FormName\"].ToString());\r\n            Log.WriteLine(\"Saving Current form: \" + Data[\"FormName\"].ToString());\r\n               watch = System.Diagnostics.Stopwatch.StartNew();\r\n               this.ExecuteTest(\"Napris_presentPSSP\\\\OpenSaveFormsPSSPInitialMeeting\\\\MyMethods\\\\_SaveFormNapris.tstest\");\r\n               watch.Stop();\r\n            Log.WriteLine(\"Time elapsed: \"+watch.ElapsedMilliseconds+\" ms\");\r\n            myUtility.savetime = watch.ElapsedMilliseconds;\r\n            \r\n            this.ExecuteTest(\"Napris_presentPSSP\\\\OpenSaveFormsPSSPInitialMeeting\\\\MyMethods\\\\writeToExcelFormsData.tstest\");\r\n            myUtility.row = Data.IterationIndex+2;",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -66,11 +66,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "RealProject.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "RealProject._OpenCountSave",
+    "TestClass": "Accelify._OpenCountSaveNapris",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenCountSave.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenCountSaveNapris.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -100,14 +100,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "_OpenCountSave",
+    "Name": "_OpenCountSaveNapris",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenCountSave.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenCountSaveNapris.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "ab5bddf9-dbb9-4a63-bfcc-77dec18f653c",
     "Id": "ab5bddf9-dbb9-4a63-bfcc-77dec18f653c",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "        string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\Book2.xlsx\";\r\n        string myPath = \"C:\\\\qa\\\\telerik\\\\Results\\\\domainResultsFormsData.xls\";\r\n\r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\n\r\nSystem.Threading.Thread.Sleep(1000);\r\n\r\nexcelApp.Cells[Data.IterationIndex + 2 , 2] = Accelify.Utility.opentime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 3] = Accelify.Utility.savetime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 4] = \"Extracted form name: \"+Accelify.Utility.title;\r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);\r\n",
+                "Code": "        string dataSourcePath = this.ExecutionContext.DeploymentDirectory + @\"\\Data\\Book2.xlsx\";\r\n        string myPath = \"C:\\\\Results\\\\domainResultsFormsData.xls\";\r\n\r\nif (!System.IO.File.Exists(myPath))\r\n{\r\n    System.IO.File.Copy(dataSourcePath, myPath);\r\n}\r\n\r\nMicrosoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();\r\nMicrosoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Open(myPath);\r\n\r\nSystem.Threading.Thread.Sleep(1000);\r\n\r\nexcelApp.Cells[Data.IterationIndex + 2 , 2] = myUtility.opentime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 3] = myUtility.savetime;\r\nexcelApp.Cells[Data.IterationIndex + 2 , 4] = \"Extracted form name: \"+myUtility.title;\r\nexcelApp.Visible = true;\r\nexcelApp.ActiveWorkbook.Save();\r\n\r\nworkbook.Close(false, Type.Missing, Type.Missing);\r\nexcelApp.Workbooks.Close();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);\r\n\r\nexcelApp.Quit();\r\nGC.Collect();\r\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);\r\n",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -66,11 +66,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "RealProject.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "RealProject.writeToExcelFormsData",
+    "TestClass": "Accelify.writeToExcelFormsData",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -102,12 +102,12 @@
     "Description": "",
     "Name": "writeToExcelFormsData",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e038f13d-41b1-41c0-8020-a04077d397a4",
     "Id": "e038f13d-41b1-41c0-8020-a04077d397a4",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

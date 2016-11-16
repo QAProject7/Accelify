@@ -16,10 +16,10 @@ using ArtOfTest.WebAii.ObjectModel;
 using ArtOfTest.WebAii.Silverlight;
 using ArtOfTest.WebAii.Silverlight.UI;
 
-namespace RealProject
+namespace Accelify
 {
 
-    public class _OpenCountSave : BaseWebAiiTest
+    public class _OpenCountSaveNapris : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -52,22 +52,22 @@ namespace RealProject
             Console.Out.WriteLine("Open Current form: " + Data["FormName"].ToString());
             Log.WriteLine("Open Current form: " + Data["FormName"].ToString());
                var watch = System.Diagnostics.Stopwatch.StartNew();
-               this.ExecuteTest("Methods\\_OpenForm.tstest");
+               this.ExecuteTest("Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenFormNapris.tstest");
                watch.Stop();
-            Accelify.Utility.title = GetExtractedValue("FormTitleName");
+            myUtility.title = GetExtractedValue("FormTitleName");
             Log.WriteLine("Time elapsed: "+watch.ElapsedMilliseconds+" ms");
-            Accelify.Utility.opentime = watch.ElapsedMilliseconds;
+            myUtility.opentime = watch.ElapsedMilliseconds;
             
             Console.Out.WriteLine("Saving Current form: " + Data["FormName"].ToString());
             Log.WriteLine("Saving Current form: " + Data["FormName"].ToString());
                watch = System.Diagnostics.Stopwatch.StartNew();
-               this.ExecuteTest("Methods\\_SaveForm.tstest");
+               this.ExecuteTest("Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_SaveFormNapris.tstest");
                watch.Stop();
             Log.WriteLine("Time elapsed: "+watch.ElapsedMilliseconds+" ms");
-            Accelify.Utility.savetime = watch.ElapsedMilliseconds;
+            myUtility.savetime = watch.ElapsedMilliseconds;
             
-            this.ExecuteTest("Methods\\writeToExcelFormsData.tstest");
-            Accelify.Utility.row = Data.IterationIndex+2;
+            this.ExecuteTest("Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\writeToExcelFormsData.tstest");
+            myUtility.row = Data.IterationIndex+2;
         }
     }
 }

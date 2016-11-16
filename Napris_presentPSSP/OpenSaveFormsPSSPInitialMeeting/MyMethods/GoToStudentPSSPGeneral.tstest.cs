@@ -16,7 +16,7 @@ using ArtOfTest.WebAii.ObjectModel;
 using ArtOfTest.WebAii.Silverlight;
 using ArtOfTest.WebAii.Silverlight.UI;
 
-namespace RealProject
+namespace Accelify
 {
 
     public class GoToStudentPSSPGeneral : BaseWebAiiTest
@@ -54,25 +54,25 @@ namespace RealProject
                         
                         if ((bbaseUrl.Contains("dade.acceliqc.com")))
                 {
-                    Accelify.Utility.currentDomain = "qc";
+                    myUtility.currentDomain = "qc";
                     studentID = "459379";
                 }
                 else if (bbaseUrl.Contains("miami-demo.accelidemo.com"))
                 {
-                     Accelify.Utility.currentDomain= "demo";
+                     myUtility.currentDomain= "demo";
                     studentID = "14";
                    
                 }
                 else if (bbaseUrl.Contains("dade-pilot.acceliplan.com"))
                 {
-                    Accelify.Utility.currentDomain = "pilot";
+                    myUtility.currentDomain = "pilot";
                     studentID = "39";
                    
                 }
                 
                  else if (bbaseUrl.Contains("dade-training.acceliplan.com"))
                 {
-                    Accelify.Utility.currentDomain = "training";
+                    myUtility.currentDomain = "training";
                     studentID = "720838";
                    
                 }

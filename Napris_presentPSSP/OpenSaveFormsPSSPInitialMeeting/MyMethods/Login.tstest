@@ -169,10 +169,10 @@
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "",
+                          "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "HttpDadeAcceliqc"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -297,10 +297,10 @@
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "",
+                          "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "HttpDadeAcceliqc"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -412,10 +412,10 @@
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "",
+                          "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "HttpDadeAcceliqc"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -498,7 +498,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\Login.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -535,12 +535,12 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\Login.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "c5c5f732-911e-4187-982b-6b9b8b8d39a1",
     "Id": "c5c5f732-911e-4187-982b-6b9b8b8d39a1",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

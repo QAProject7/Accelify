@@ -23,7 +23,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    Accelify.Utility.currentDomain = \"qc\";\r\n                    studentID = \"459379\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                     Accelify.Utility.currentDomain= \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    Accelify.Utility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    Accelify.Utility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                \r\n                String address = \"/Plan/Students/ViewStudent?CommonStudentId=\"+studentID+\"&studentViewType=Events&programType=MiamiPSSP\";\r\n                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
+                "Code": "                        String bbaseUrl = Settings.Current.Web.BaseUrl.ToString();\r\n                        String studentID = \"0\";\r\n                        \r\n                        if ((bbaseUrl.Contains(\"dade.acceliqc.com\")))\r\n                {\r\n                    myUtility.currentDomain = \"qc\";\r\n                    studentID = \"459379\";\r\n                }\r\n                else if (bbaseUrl.Contains(\"miami-demo.accelidemo.com\"))\r\n                {\r\n                     myUtility.currentDomain= \"demo\";\r\n                    studentID = \"14\";\r\n                   \r\n                }\r\n                else if (bbaseUrl.Contains(\"dade-pilot.acceliplan.com\"))\r\n                {\r\n                    myUtility.currentDomain = \"pilot\";\r\n                    studentID = \"39\";\r\n                   \r\n                }\r\n                \r\n                 else if (bbaseUrl.Contains(\"dade-training.acceliplan.com\"))\r\n                {\r\n                    myUtility.currentDomain = \"training\";\r\n                    studentID = \"720838\";\r\n                   \r\n                }\r\n                \r\n                String address = \"/Plan/Students/ViewStudent?CommonStudentId=\"+studentID+\"&studentViewType=Events&programType=MiamiPSSP\";\r\n                 ActiveBrowser.NavigateTo(Settings.Current.Web.BaseUrl+address, true);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -175,11 +175,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "RealProject.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "RealProject.GoToStudentPSSPGeneral",
+    "TestClass": "Accelify.GoToStudentPSSPGeneral",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\GoToStudentPSSPGeneral.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\GoToStudentPSSPGeneral.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -211,12 +211,12 @@
     "Description": "",
     "Name": "GoToStudentPSSPGeneral",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\GoToStudentPSSPGeneral.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\GoToStudentPSSPGeneral.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a7059c2a-b96a-4e4e-abba-a408eb78111e",
     "Id": "a7059c2a-b96a-4e4e-abba-a408eb78111e",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

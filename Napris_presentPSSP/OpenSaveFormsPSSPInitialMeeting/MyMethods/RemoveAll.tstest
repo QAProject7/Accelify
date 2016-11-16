@@ -87,7 +87,7 @@
                               "uniqueKey": "HHzgzp2XxmuXgDtQfUkv7gxDPMg=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
-                              "Name": "PnlEventListDiv0",
+                              "Name": "PnlEventListDiv",
                               "FindExpressions": [
                                 {
                                   "Key": 1,
@@ -466,7 +466,7 @@
                           "uniqueKey": "HHzgzp2XxmuXgDtQfUkv7gxDPMg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PnlEventListDiv0",
+                          "Name": "PnlEventListDiv",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -583,7 +583,7 @@
                               "uniqueKey": "5UHvxiJhfIQULfI1QAvZHJKEkxQ=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
-                              "Name": "Table",
+                              "Name": "Table1",
                               "FindExpressions": [
                                 {
                                   "Key": 1,
@@ -970,7 +970,7 @@
                           "uniqueKey": "5UHvxiJhfIQULfI1QAvZHJKEkxQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Table",
+                          "Name": "Table1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1050,7 +1050,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\RemoveAll.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\RemoveAll.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1082,12 +1082,12 @@
     "Description": "",
     "Name": "RemoveAll",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\MyMethods\\RemoveAll.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\RemoveAll.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e2ecab3f-84b1-4cf9-b073-65ebc25c241b",
     "Id": "e2ecab3f-84b1-4cf9-b073-65ebc25c241b",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }

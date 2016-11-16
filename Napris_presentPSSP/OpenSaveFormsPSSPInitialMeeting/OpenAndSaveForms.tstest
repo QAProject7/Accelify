@@ -28,7 +28,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bf7ce661-2737-400c-8b02-81509774fb6e",
+            "Runtime ID": "c37f72e2-4dd5-48a2-948d-0ae906ca0a13",
             "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
@@ -38,8 +38,8 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "51fdd1fd-4ed3-40a8-a9e0-6a7fad77ad88",
+                "TestPath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\Login.tstest",
+                "TestUniqueId": "c5c5f732-911e-4187-982b-6b9b8b8d39a1",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -60,7 +60,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Fill_PresentLevelsTest1ld13hdw.djr",
+            "StepImageKey": "OpenAndSaveFormsx2lqtc5r.adb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -69,7 +69,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b71e41e5-d936-4b12-b7bc-8cc219f4ce4e",
+            "Runtime ID": "f7068f91-15ac-4ce5-bf05-40fd7a907b84",
             "Description": "Execute test 'GoToStudentPSSPGeneral'",
             "CustomDescription": null,
             "Step": {
@@ -79,8 +79,8 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "GoToStudentPSSPGeneral",
-                "TestPath": "Methods\\GoToStudentPSSPGeneral.tstest",
-                "TestUniqueId": "49d922d2-ae02-421c-b832-6bb651c7b75f",
+                "TestPath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\GoToStudentPSSPGeneral.tstest",
+                "TestUniqueId": "a7059c2a-b96a-4e4e-abba-a408eb78111e",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -101,7 +101,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "OpenAndSaveFormsgn5fds2a.0ec",
+            "StepImageKey": "OpenAndSaveFormscuy0jekk.wru",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -110,18 +110,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "178c337e-d0c5-4bbe-bbc1-1d385dff6e8e",
+            "Runtime ID": "2c3f164c-153e-43c4-830a-ec78d609d9d2",
             "Description": "Execute test 'RemoveAll'",
-            "CustomDescription": "Execute test 'RemoveAll'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "RemoveAllEvents",
-                "TestPath": "Performance Tests\\RemoveAllEvents.tstest",
-                "TestUniqueId": "9a52c9b8-8d70-4b44-a329-58dbdc61ba49",
+                "TestName": "RemoveAll",
+                "TestPath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\RemoveAll.tstest",
+                "TestUniqueId": "e2ecab3f-84b1-4cf9-b073-65ebc25c241b",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -142,7 +142,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Fill_PresentLevels2gkmlqmm.5is",
+            "StepImageKey": "OpenAndSaveFormsjwo1s50c.u53",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -151,9 +151,9 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "bbb12517-9c85-482f-8774-76ef06a2bbed",
+            "Runtime ID": "6a93fcb8-5230-4a36-b8a2-4ce7b82357da",
             "Description": "Execute test 'CreatePSSPInitialMeetingDDEvent'",
-            "CustomDescription": "Execute test 'CreatePSSPInitialMeetingDDEvent'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -161,8 +161,8 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "CreatePSSPInitialMeetingDDEvent",
-                "TestPath": "Methods\\CreatePSSPInitialMeetingDDEvent.tstest",
-                "TestUniqueId": "dee200cc-44fb-4d30-8816-8fff9c686be1",
+                "TestPath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\CreatePSSPInitialMeetingDDEvent.tstest",
+                "TestUniqueId": "7575ad11-ea7a-409a-b523-f1f191f66910",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -183,7 +183,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "OpenAndSaveFormsqzto0mlt.dhe",
+            "StepImageKey": "OpenAndSaveForms5wf2gtcp.z2i",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -356,7 +356,7 @@
                           "uniqueKey": "ZMPZmiWon96X95UeWw7QdFdXHJI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PSSPInitialLink1",
+                          "Name": "PSSPInitialLink10",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -538,8 +538,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "dac4d713-738a-453f-9e16-ffd28506be2b",
-            "Description": "Execute test '_OpenCountSave'",
+            "Runtime ID": "54aacec6-978d-4f8e-b4f1-0366b10ff435",
+            "Description": "Execute test '_OpenCountSaveNapris'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -547,9 +547,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "_OpenCountSave",
-                "TestPath": "Methods\\_OpenCountSave.tstest",
-                "TestUniqueId": "3e19d692-3660-42a9-98ea-7012d336a86c",
+                "TestName": "_OpenCountSaveNapris",
+                "TestPath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\MyMethods\\_OpenCountSaveNapris.tstest",
+                "TestUniqueId": "ab5bddf9-dbb9-4a63-bfcc-77dec18f653c",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -570,7 +570,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "OpenAndSaveFormsgoho5vji.mvr",
+            "StepImageKey": "OpenAndSaveFormsdhoildot.kag",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -592,7 +592,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "RealProject.Fill_PresentLevelsTest",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormsPSSPInitialMeeting\\OpenAndSaveForms.resx",
+    "ResourceFilePath": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\OpenAndSaveForms.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -628,12 +628,12 @@
     "Description": "",
     "Name": "OpenAndSaveForms",
     "Owner": "",
-    "Path": "OpenSaveFormsPSSPInitialMeeting\\OpenAndSaveForms.tstest",
+    "Path": "Napris_presentPSSP\\OpenSaveFormsPSSPInitialMeeting\\OpenAndSaveForms.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "0b80158c-c710-46e8-92db-091f6e7c24a8",
     "Id": "0b80158c-c710-46e8-92db-091f6e7c24a8",
-    "ProjectId": "579a07d0-39df-4bbc-8e17-3eb8f3f1214d",
+    "ProjectId": "408c6e8a-180f-44d4-9d18-86c34e88ac6c",
     "Version": 200
   }
 }
